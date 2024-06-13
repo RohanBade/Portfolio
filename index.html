@@ -1,0 +1,437 @@
+<!DOCTYPE html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>PORTFOLIO</title>
+</head>
+<body>
+    <div class="cursor"></div>
+    <header class="text-white">
+        <div>
+            <nav>
+                <div class="nav-logo">
+                    <h1><span style="color:#6f03fc;font-size: 30px;">&lt</span >ROHAN<span style="color:#6f03fc;font-size: 30px;">/&gt</span></h1>
+                </div>
+                <div class="nav-middle">
+                    <a href="#section-projects" >PROJECTS</a>
+                    <a href="#section-about" >ABOUT ME</a>
+                    <a href="https://medium.com/@baderohan759" target="_blank">BLOGS</a>
+                </div>
+                <div class="nav-socials">
+                  <a href="https://www.facebook.com/profile.php?id=100008116697313&__tn__=-UC*F" target="_blank"><i class='bx bxl-facebook-circle'></i></a>
+                  <a href="https://www.instagram.com/_rohan_bade/" target="_blank"><i class='bx bxl-instagram' ></i></a>
+                  <a href="https://medium.com/@baderohan759" target="_blank"><i class='bx bxl-medium' ></i></a>
+                  <a href="https://www.reddit.com/user/rohanbade/" target="_blank"><i class='bx bxl-reddit' ></i></a>
+                  <a href="https://github.com/RohanBade" target="_blank"><i class='bx bxl-github' ></i></a>
+                </div>
+                <button class="nav-hamburger" >
+                  <i class='bx bx-menu'></i>
+                </button>
+            </nav>
+            <div class="nav-hamburger-list">
+              <a href="#section-projects">PROJECTS</a>
+              <a href="#section-about">ABOUT ME</a>
+              <a href="https://medium.com/@baderohan759">BLOGS</a>
+            </div>
+
+            <div id="main">
+              <div class="backgrounds">
+                <img class="astronaut" src="https://static.vecteezy.com/system/resources/previews/023/959/291/non_2x/cute-cartoon-astronaut-free-png.png" alt="">
+                <div class="stars"></div>
+                <div class="stars2"></div>
+                <div class="stars3"></div>
+              </div>
+              <div class="pendulum">
+                <div class="base">
+                </div>
+                <div >
+                  <div class="thread1"></div>
+                  <div class="thread2"></div>
+                  <div class="thread3"></div>
+                </div>
+                <div class="ball">
+                  <div class="ball1"></div>
+                  <div class="ball2"></div>
+                  <div class="ball3"></div>
+                </div>
+              </div>
+
+              <div class="main-text">
+                <div class="greetings"><h1>Hey&#128075! I am </h1><h1 class="typing-demo" >ROHAN.</h1></div>
+                <div class="buttons">
+                  <button class="btn-cv">Download CV</button>
+                  <button class="btn-contact"><a href="#section-contactme">Contact Me</a></button>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </header> 
+    <section id="section-projects">
+      <h1 class="section-title">PROJECTS </h1>
+      <!-- CHESS, MINECRAFT, RECOGNIZER, SPAM FILTER, MADGWICK FILTER-->
+      <div class="card-container">
+        <div class="card" >
+          <h1>CHESS</h1>
+          <p>Written on SDL, C and Implementation of Minimax algorithm with alpha-beta prunning. Static evaluation of a given position using a heuristic approach.</p>
+          <br>
+          <div class="github-link">
+            <i class="bx bxl-github"></i>
+            <a href="https://github.com/abhigyan7/chess" target="_blank">chess_project_link</a>
+          </div>
+        </div>
+        <div class="card">
+          <h1>MINECRAFT</h1>
+          <p>OpenGL graphics project. Terrain with infitnite world generation and implementation of math utilities like lookAt, perspectives.</p>
+          <br>
+          <div class="github-link">
+            <i class="bx bxl-github"></i>
+            <a href="https://github.com/ronejfourn/graphics-project" target="_blank">minecraft_project_link</a>
+          </div>
+        </div>
+        <div class="card">
+          <h1>RECOGNIZER</h1>
+          <p>Neural Network written from scratch and interface built over pygame uses python libraries as PIL, numpy, pandas, scipy.</p>
+          <br>
+          <div class="github-link">
+            <i class="bx bxl-github"></i>
+            <a href="https://github.com/RohanBade/RECOGNIZER" target="_blank">recognizer_project_link</a>
+          </div>
+        </div>
+        <div class="card">
+          <h1>E.R.P.</h1>
+          <p>Enterprise Resource Planner built over Django, sqlite3 where you can manage your accounts.</p>
+          <br>
+          <div class="github-link">
+            <i class="bx bxl-github"></i>
+            <a href="https://github.com/RohanBade/Enterprise-Resource-Planner" target="_blank">ERP_project_link</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="section-about">
+      <div>
+        <h1 class="section-title">ABOUT ME</h1>
+      </div>
+      <div class="code-format">
+        <div class="each-line">
+          <span class="twospaces">01</span>
+          <h1 class="purple">class</h1>
+          <h1 class="yellow">RohanBade</h1>
+          <h1>:</h1>
+        </div>
+        <br>
+        <div class="each-line">
+          <span class="twospaces">02</span>
+          <span class="tab"></span>
+          <h1 class="green"># Everything about me!!!</h1>
+        </div>
+
+        <!-- CONSTRUCTOR BEGIN -->
+        <div class="each-line">
+          <span class="twospaces">03</span>
+          <span class="tab"></span>
+          <h1 class="blue">def</h1>
+          <h1 class="purple">__init__ </h1>
+          <h1>&#40self&#41:</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">04</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>self.name =</h1>
+          <h1 class="green">'Rohan Bade'</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">05</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>self.DOB =</h1>
+          <h1 class="green">"20<sup class="green">th</sup> Jan, 2023"</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">06</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>self.email =</h1>
+          <h1 class="green">'baderohan759@gmail.com'</h1>
+        </div>
+        <!-- CONSTRUCTOR END -->
+        <br>
+        <!-- EDUCATION BEGIN -->
+        <div class="each-line">
+          <span class="twospaces">07</span>
+          <span class="tab"></span>
+          <h1 class="blue">def</h1>
+          <h1 class="yellow">education</h1>
+          <h1>&#40self&#41:</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">08</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1 class="blue">return</h1>
+          <h1>[</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">09</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>&#123</h1>
+          <h1 class="green">'2018-2020'</h1>
+          <h1>:</h1>
+          <h1 class="green">"St. Xavier’s College, Maitighar"</h1>
+          <h1>&#125,</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">10</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>&#123</h1>
+          <h1 class="green">'2021-currently'</h1>
+          <h1>:</h1>
+          <h1 class="green">"Pulchowk Campus, Lalitpur"</h1>
+          <h1>&#125,</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">11</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>]</h1>
+        </div>
+        <!-- EDUCATION END -->
+
+        <br>
+        <!-- SKILLS BEGIN -->
+        <div class="each-line">
+          <span class="twospaces">12</span>
+          <span class="tab"></span>
+          <h1 class="blue">def</h1>
+          <h1 class="yellow">skills</h1>
+          <h1>&#40self&#41:</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">13</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1 class="blue">return</h1>
+          <h1>[</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">14</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>&#123</h1>
+          <h1 class="green">'Frontend'</h1>
+          <h1>:</h1>
+          <h1 class="green">"HTML, CSS, tailwindcss, bootstrap, React.js, Next.js"</h1>
+          <h1>&#125,</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">15</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>&#123</h1>
+          <h1 class="green">'Backend'</h1>
+          <h1>:</h1>
+          <h1 class="green">"Django,RestAPI,SQL"</h1>
+          <h1>&#125,</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">16</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>&#123</h1>
+          <h1 class="green">'Data Science/Analytics'</h1>
+          <h1>:</h1>
+          <h1 class="green">"numpy, pandas, scikit-learn, seaborn, Tensorflow, Keras, matplotlib"</h1>
+          <h1>&#125,</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">16</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>&#123</h1>
+          <h1 class="green">'Game Dev'</h1>
+          <h1>:</h1>
+          <h1 class="green">"pygame"</h1>
+          <h1>&#125</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">16</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>&#123</h1>
+          <h1 class="green">'Graphics Design'</h1>
+          <h1>:</h1>
+          <h1 class="green">"Canva, DaVinci Resolve"</h1>
+          <h1>&#125</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">17</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>]</h1>
+        </div>
+        <!-- SKILLS END -->
+        <br>
+        <!-- EXPERIENCE -->
+        <div class="each-line">
+          <span class="twospaces">12</span>
+          <span class="tab"></span>
+          <h1 class="blue">def</h1>
+          <h1 class="yellow">experience</h1>
+          <h1>&#40self&#41:</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">13</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1 class="blue">return</h1>
+          <h1>[</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">14</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>&#123</h1>
+          <h1 class="green">"Pulchowkians’ Fitness Hub"</h1>
+          <h1>:</h1>
+          <h1 class="green">"Content Creator/ Graphics Design (2023 - 2024) and Secretary (2024- currently)"</h1>
+          <h1>&#125,</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">15</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>&#123</h1>
+          <h1 class="green">"Engineering Students’ Group of Bhaktapur"</h1>
+          <h1>:</h1>
+          <h1 class="green">"Treasurer (2022-2023) and Secretary (2023-currently)"</h1>
+          <h1>&#125,</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">16</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>&#123</h1>
+          <h1 class="green">"The British School, Lalitput"</h1>
+          <h1>:</h1>
+          <h1 class="green">"Coding Instructor (May, 2024 - currently)"</h1>
+          <h1>&#125,</h1>
+        </div>
+        <div class="each-line">
+          <span class="twospaces">17</span>
+          <span class="tab"></span>
+          <span class="tab"></span>
+          <h1>]</h1>
+        </div>
+      </div>
+      <!--code, ML, video editing, graphics,  music, fitness, write-->
+    </section>
+    <section id="section-contactme">
+      <div>
+        <h1 class="section-title">Contact Me</h1>
+      </div>
+      <div>
+        <form action="">
+          <input type="text" id="name" name="name" placeholder="Name">
+          <input type="email" id="email" name="email" placeholder="johndoe@gmail.com">
+          <textarea name="message" id="msg" cols="30" rows="10" placeholder="Message"></textarea>
+          <input type="submit" id = "submit" value="Submit">
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-follow">
+        <h1 class="footer-h1">Find me on:</h1>
+        <div class="components">
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=13912&format=png&color=000000" alt="">
+            <a href="https://www.facebook.com/profile.php?id=100008116697313&__tn__=-UC*F" target="_blank">Facebook</a>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=Xy10Jcu1L2Su&format=png&color=000000" alt="">
+            <a href="https://www.instagram.com/_rohan_bade/n__=-UC*F" target="_blank">Instagram</a>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=kshUdu5u4FCX&format=png&color=000000" alt="">
+            <a href="https://www.reddit.com/u/rohanbade/" target="_blank">Reddit</a>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=iEBcQcM9rnZ9&format=png&color=000000" alt="">
+            <a href="https://www.github.com/RohanBade" target="_blank">Github</a>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=60ZV_wYC0BM2&format=png&color=000000" alt="">
+            <a href="www.linkedin.com/in/rohan-bade" target="_blank">LinkedIn</a>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=aUugRyDZVcWE&format=png&color=000000" alt="">
+            <a href="https://wa.link/n434pc" target="_blank">Whatsapp</a>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=VlAoafiMkWGe&format=png&color=000000" alt="">
+            <a href="https://medium.com/@baderohan759" target="_blank">Medium</a>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=114954&format=png&color=000000" alt="">
+            <a href="https://t.me/rohanbade" target="_blank">Telegram</a>
+          </div>
+
+        </div>
+      </div>
+      <div class="footer-built">
+        <h1 class="footer-h1">Built with:</h1>
+        <div class="components">
+
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=D2Hi2VkJSi33&format=png&color=000000" alt="">
+            <h1>HTML</h1>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=YjeKwnSQIBUq&format=png&color=000000" alt="">
+            <h1>CSS</h1>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=gYCTehfTlYk5&format=png&color=000000" alt="">
+            <h1>Javascript</h1>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=qc3TyHJPxEoH&format=png&color=000000" alt="">
+            <h1>Django</h1>
+          </div>
+          <div class="footer-components">
+            <img src="https://img.icons8.com/?size=100&id=FnnFuAIw4e8j&format=png&color=000000" alt="">
+            <h1>TailwindCSS</h1>
+          </div>
+        </div>
+
+        </div>
+      <div class="footer-copyright">
+        <h1>Copyright &#169; 2023 <span>Rohan Bade</span>. All rights reserved.</h1>
+      </div>
+
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
