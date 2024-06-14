@@ -37,6 +37,7 @@ nav {
     height: 80px;
     background: black;
     font-size: 1.6em;
+    gap:20px;
 }
 
 header, #section-about,#section-projects,footer {
@@ -92,7 +93,7 @@ header, #section-about,#section-projects,footer {
 .socials{
   width:25px;
   border-radius: 50%;
-  background: -webkit-linear-gradient(#fff, #444);
+  background: white;
   gap:10px;
   -webkit-text-fill-color: transparent;
 }
@@ -657,23 +658,16 @@ PENDULUM CODE BEGINS
   left:270px;
   top: 30px;
   transform: rotateZ(-40deg);
-  
-  left:220px;
-  top: 50px;
-  transform: rotateZ(0deg);
-  left:270px;
-  top: 30px;
-  transform: rotateZ(-40deg);
 }
 @keyframes right_rotate{
   0%{
-    left:220px;
-    top: 40px;
+    left:215px;
+    top: 30px;
     transform: rotateZ(0deg);
   }
   50%{
-   left:220px;
-    top: 40px;
+   left:215px;
+    top: 30px;
     transform: rotateZ(0deg);
   }
   75%{
@@ -682,8 +676,8 @@ PENDULUM CODE BEGINS
     transform: rotateZ(-40deg);
   }
   100%{
-    left:220px;
-    top: 40px;
+    left:215px;
+    top: 30px;
     transform: rotateZ(0deg);
   }
   
