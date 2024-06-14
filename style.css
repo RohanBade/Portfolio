@@ -15,6 +15,9 @@ body{
   background-color: black;
 }
 
+header{
+  height:100vh;
+}
 .cursor{
   position:absolute;
   width:20px;
@@ -76,7 +79,7 @@ header, #section-about,#section-projects,footer {
   flex-grow: 1;
   margin-right: 4vw;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 15px;
   color:#6f03fc;
 }
 
@@ -85,6 +88,15 @@ header, #section-about,#section-projects,footer {
   color:#6f03fc;
   animation: rotatefull 3s infinite linear;
 }
+
+.socials{
+  width:25px;
+  border-radius: 50%;
+  background: -webkit-linear-gradient(#fff, #444);
+  gap:10px;
+  -webkit-text-fill-color: transparent;
+}
+
 span.name-span{
   font-size: 60px;
 }
@@ -252,19 +264,21 @@ span.name-span{
 .btn-cv:hover {
   transform: translateY(-10px);
   transition: all ease-in-out 0.7s;
+  color: #264bde;
+  border: 2px solid #264bde; /* Added border property */
 }
 
 .btn-contact {
   z-index: 50;
   color: white;
-  background: rgba(21,27,38,0.85);
+  background: #6f03fc;
   padding: 10px;
-  border-radius: 20px;
+  border-radius: 10px;
   font-size: 0.8em;
 }
 
-.btn-contact:hover {
-  background: rgba(28,29,48,0.8);
+.btn-contact:hover{
+  background: #4f03fc ;
   transform: translateY(-10px);  
   transition: all ease-in-out 0.7s;
 } 
@@ -298,6 +312,7 @@ span.name-span{
 
 /*  SECTION PROJECT */
 #section-projects{
+  margin-top: -90px;
   background: transparent;
   display: flex;
   flex-direction: column;
