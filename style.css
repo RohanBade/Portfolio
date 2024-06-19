@@ -8,9 +8,9 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap:70px;
   flex-direction: column;
   background-color: black;
+  gap:70px;
 }
 .line{
   position: fixed;
@@ -34,9 +34,6 @@ body{
   }
 }
 
-header{
-  height:100vh;
-}
 .cursor{
   position:absolute;
   width:20px;
@@ -333,7 +330,6 @@ span.name-span{
 
 /*  SECTION PROJECT */
 #section-projects{
-  margin-top: -90px;
   background: transparent;
   display: flex;
   flex-direction: column;
@@ -350,7 +346,7 @@ span.name-span{
   gap:2vw;
   margin-left:5vw;
   margin-right:5vw;
-  justify-content: flex-start;
+  justify-content: center;
   flex-flow: wrap row;
 }
 .card{
